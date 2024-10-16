@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diet Plan Recommendation</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Diet Plan Recommendation</h1>
+        <label for="preference">Choose your dietary preference:</label>
+        <select id="preference">
+            <option value="">Select...</option>
+            <option value="vegan">Vegan</option>
+            <option value="vegetarian">Vegetarian</option>
+            <option value="keto">Keto</option>
+            <option value="paleo">Paleo</option>
+        </select>
+        <button id="recommendBtn">Get Recommendation</button>
+        <div id="recommendation" class="recommendation"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
